@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="container">
+        <h1>Other Songs</h1>
+        {% for song in songs %}
+        <audio controls>
+            <h2>{{ song }}</h2>
+            <source src="{{ song }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio><br>
+        {% endfor %}
+    </div>
+{% endblock %}
