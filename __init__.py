@@ -11,9 +11,9 @@ def index():
 @app.route('/rock')
 def rock_page():
     rock_songs = [
-        'song1',
-        'song2',
-        'song3'
+        {'name': 'song1'},
+        {'name': 'song2'},
+        {'name': 'song3'}
         ]
     return render_template('rock.html', songs=rock_songs)
 
