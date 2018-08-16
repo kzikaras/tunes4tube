@@ -1,3 +1,35 @@
 .card-img-top {
     padding-top: 14px;
 }
+
+.hero-container {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url("/static/heroimage.jpg");
+    padding-top: 80px;
+}
+
+#hero-text {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+footer {
+    background-color: #172A3A;
+    height: 300px;
+    width: 100%;
+    padding: 46px;
+    margin-top: 46px;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
