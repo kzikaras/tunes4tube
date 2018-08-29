@@ -1,5 +1,16 @@
+.ad {
+    width: 50%;
+    height: 45px;
+    background-color: grey;
+    border: 1px solid black;
+}
+
 .card-img-top {
     padding-top: 14px;
+}
+
+.card {
+    margin-top: 46px;
 }
 
 .hero-container {
